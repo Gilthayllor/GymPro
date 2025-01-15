@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "GymPro",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "dotnet: build",
+        "program": "${workspaceFolder}/src/server/GymPro.API/bin/debug/net9.0/GymPro.API.dll",
+        "args": ["--urls", "http://localhost:5000;https://localhost:5001"],
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "ASPNETCORE_ENVIRONMENT": "Development",
+        },
+        "launchBrowser": {
+            "enabled": true,
+            "args": "${auto-detect-url}",
+        }
+      }
+    ]
+  }
+  
