@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D92FA336-1A9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{2C324CE5-36E1-4903-9E4D-62C03131015C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymPro.API", "src\server\GymPro.API\GymPro.API.csproj", "{9882B266-09FA-48D1-90B4-CCEF48E87633}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymPro.Server", "src\server\GymPro.API\GymPro.Server.csproj", "{9882B266-09FA-48D1-90B4-CCEF48E87633}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymPro.Application", "src\server\GymPro.Application\GymPro.Application.csproj", "{0645AAE3-A84D-418F-BD3F-A0DB0F0BC879}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymPro.Modules.Trainers", "src\server\GymPro.Modules.Trainers\GymPro.Modules.Trainers.csproj", "{3DF35225-92DB-4870-8363-6A1400E019DB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymPro.Modules.Sessions", "src\server\GymPro.Modules.Sessions\GymPro.Modules.Sessions.csproj", "{534CC1EC-0898-483B-9C94-BEA000D07DAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{048D9C48-9596-A709-1E3D-72B2BA83EA39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,5 +70,6 @@ Global
 		{56BA6010-ECCA-4410-BA79-C455FF049FEF} = {2C324CE5-36E1-4903-9E4D-62C03131015C}
 		{3DF35225-92DB-4870-8363-6A1400E019DB} = {2C324CE5-36E1-4903-9E4D-62C03131015C}
 		{534CC1EC-0898-483B-9C94-BEA000D07DAD} = {2C324CE5-36E1-4903-9E4D-62C03131015C}
+		{048D9C48-9596-A709-1E3D-72B2BA83EA39} = {D92FA336-1A91-4754-ADC5-0536B4F7EEF9}
 	EndGlobalSection
 EndGlobal
